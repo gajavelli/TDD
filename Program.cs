@@ -121,7 +121,7 @@ namespace TDD
 
             var result = Program.CreateTestAndRandomize("ID1", mainItems);
             Assert.AreEqual(0, result[0].ItemType);
-            //Assert.AreEqual(0, result[1].ItemType);
+            Assert.AreEqual(0, result[1].ItemType);
         }
     }
 
@@ -160,7 +160,7 @@ namespace TDD
     //     public void Test(List<Item> list)
     //     {
     //         foreach (var item in list)
-    //             Console.WriteLine(item.ItemType);
+    //             //to be implemented
     //     }
     // }
 
