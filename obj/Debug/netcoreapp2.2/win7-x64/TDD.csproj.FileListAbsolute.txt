@@ -1,0 +1,14 @@
+c:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\hostpolicy.dll
+c:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\hostfxr.dll
+c:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\TDD.exe
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\TDD.deps.json
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\TDD.runtimeconfig.json
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\TDD.runtimeconfig.dev.json
+c:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\TDD.dll
+c:\working\TDD\bin\Debug\netcoreapp2.2\win7-x64\TDD.pdb
+c:\working\TDD\obj\Debug\netcoreapp2.2\win7-x64\TDD.csprojAssemblyReference.cache
+c:\working\TDD\obj\Debug\netcoreapp2.2\win7-x64\TDD.csproj.CoreCompileInputs.cache
+c:\working\TDD\obj\Debug\netcoreapp2.2\win7-x64\TDD.AssemblyInfoInputs.cache
+c:\working\TDD\obj\Debug\netcoreapp2.2\win7-x64\TDD.AssemblyInfo.cs
+c:\working\TDD\obj\Debug\netcoreapp2.2\win7-x64\TDD.dll
+c:\working\TDD\obj\Debug\netcoreapp2.2\win7-x64\TDD.pdb
