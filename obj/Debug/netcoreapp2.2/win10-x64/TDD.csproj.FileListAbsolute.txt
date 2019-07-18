@@ -9,9 +9,9 @@ c:\working\TDD\obj\Debug\netcoreapp2.2\win10-x64\TDD.AssemblyInfoInputs.cache
 c:\working\TDD\obj\Debug\netcoreapp2.2\win10-x64\TDD.AssemblyInfo.cs
 c:\working\TDD\obj\Debug\netcoreapp2.2\win10-x64\TDD.dll
 c:\working\TDD\obj\Debug\netcoreapp2.2\win10-x64\TDD.pdb
-c:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\NUnit3.TestAdapter.dll
-c:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\nunit.engine.netstandard.dll
-c:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\NUnit3.TestAdapter.pdb
 c:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\hostpolicy.dll
 c:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\hostfxr.dll
 c:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\TDD.exe
+C:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\xunit.runner.reporters.netcoreapp10.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win10-x64\xunit.runner.utility.netcoreapp10.dll

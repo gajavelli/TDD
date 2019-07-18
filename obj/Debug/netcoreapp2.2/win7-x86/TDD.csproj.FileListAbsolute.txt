@@ -1,0 +1,17 @@
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\xunit.runner.reporters.netcoreapp10.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\xunit.runner.utility.netcoreapp10.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\hostpolicy.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\hostfxr.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\TDD.exe
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\TDD.deps.json
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\TDD.runtimeconfig.json
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\TDD.runtimeconfig.dev.json
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\TDD.dll
+C:\working\TDD\bin\Debug\netcoreapp2.2\win7-x86\TDD.pdb
+C:\working\TDD\obj\Debug\netcoreapp2.2\win7-x86\TDD.csprojAssemblyReference.cache
+C:\working\TDD\obj\Debug\netcoreapp2.2\win7-x86\TDD.csproj.CoreCompileInputs.cache
+C:\working\TDD\obj\Debug\netcoreapp2.2\win7-x86\TDD.AssemblyInfoInputs.cache
+C:\working\TDD\obj\Debug\netcoreapp2.2\win7-x86\TDD.AssemblyInfo.cs
+C:\working\TDD\obj\Debug\netcoreapp2.2\win7-x86\TDD.dll
+C:\working\TDD\obj\Debug\netcoreapp2.2\win7-x86\TDD.pdb

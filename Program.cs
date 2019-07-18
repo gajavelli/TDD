@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using NUnit.Framework;
+//using NUnit.Framework;
+using Xunit;
 
 namespace TDD
 {
@@ -101,11 +102,11 @@ namespace TDD
         Pretest = 0,     
         Operational = 1 
     } 
- [TestFixture]
-    class ProgramTests
+ //[TestFixture]
+   public class ProgramTests
     {   
-        [TestCase]
-        public void Should_Return_RandomItems_top_two_pretest(string testletId)
+        [Fact]
+        public void Should_Return_RandomItems_top_two_pretest()
         {
             List<Item> mainItems = new List<Item>();
             mainItems.Add( new Item("operational_item1", ItemTypeEnum.Operational));
@@ -119,49 +120,13 @@ namespace TDD
             mainItems.Add( new Item("pretest_item3", ItemTypeEnum.Pretest));
             mainItems.Add( new Item("pretest_item4", ItemTypeEnum.Pretest));
 
-            var result = Program.CreateTestAndRandomize("ID1", mainItems);
-            Assert.AreEqual(0, result[0].ItemType);
-            Assert.AreEqual(0, result[1].ItemType);
+            List<Item> result = Program.CreateTestAndRandomize("ID1", mainItems);
+            //make sure the top 2 items in the list are pretest
+            bool bothPretest = (result.ToArray()[0].ItemType ==ItemTypeEnum.Pretest && result.ToArray()[1].ItemType ==ItemTypeEnum.Pretest)?true:false;
+            Assert.True(bothPretest);
+
         }
     }
 
-    // [TestFixture]
-    // public class TestClass
-    // {        
-    //     private object[] _sourceLists = {new object[] {
-    //             new List<Item> {new Item("operational_item1", ItemTypeEnum.Operational),
-    //             new Item("operational_item2", ItemTypeEnum.Operational),
-    //             new Item("operational_item3", ItemTypeEnum.Operational),
-    //             new Item("pretest_item1", ItemTypeEnum.Pretest),
-    //             new Item("pretest_item2", ItemTypeEnum.Pretest),
-    //             new Item("operational_item4", ItemTypeEnum.Operational),
-    //             new Item("operational_item5", ItemTypeEnum.Operational),
-    //             new Item("operational_item6", ItemTypeEnum.Operational),
-    //             new Item("pretest_item3", ItemTypeEnum.Pretest),
-    //             new Item("pretest_item4", ItemTypeEnum.Pretest)
-    //             }
-    //         },  //case 1
-    //         new object[] {new List<Item>{
-    //            new Item("op_item1", ItemTypeEnum.Operational),
-    //             new Item("op_item2", ItemTypeEnum.Operational),
-    //             new Item("op_item3", ItemTypeEnum.Operational),
-    //             new Item("pre_item1", ItemTypeEnum.Pretest),
-    //             new Item("pre_item2", ItemTypeEnum.Pretest),
-    //             new Item("op_item4", ItemTypeEnum.Operational),
-    //             new Item("op_item5", ItemTypeEnum.Operational),
-    //             new Item("op_item6", ItemTypeEnum.Operational),
-    //             new Item("pre_item3", ItemTypeEnum.Pretest),
-    //             new Item("pre_item4", ItemTypeEnum.Pretest)
-    //         }
-    //         } //case 2
-    //                                     };
-
-    //     [Test, TestCaseSource("_sourceLists")]
-    //     public void Test(List<Item> list)
-    //     {
-    //         foreach (var item in list)
-    //             //to be implemented
-    //     }
-    // }
 
 }
